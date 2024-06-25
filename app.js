@@ -70,12 +70,13 @@ cartdiv.addEventListener("click",()=>{
         console.log(`NAME : ${cart[i].name}, PRICE:${cart[i].dollar}dollar ${cart[i].cent}cent ,TOTALPRICE:${price}`)
 
     }
+    
     //if you wnat to remove the cart item from local storage you can write like this 
     //additinally we are setting the cart value as empty and number of cart item as 0
 
-    localStorage.removeItem("cart")
-    cart=[]
-    document.getElementById("cart-value").innerText= 0
+    // localStorage.removeItem("cart")
+    // cart=[]
+    // document.getElementById("cart-value").innerText= 0
 })
 
 
